@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "start": "node ./dist/server.js",
-    "start-pm2": "pm2 start ecosystem.config.js --env production",
+    "start-pm2": "pm2-runtime start ecosystem.config.js --env production",
     "build": "tsc -p .",
     "start-ts": "cross-env NODE_ENV=production ts-node src/server.ts",
     "dev": "cross-env NODE_ENV=development nodemon ./src/server.ts",
