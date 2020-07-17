@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "5e5f9386fb3d60228c7aeee3",
+    "dateFrom": "2020-01-01",
+    "dateTo": "2020-01-31",
+    "transactions": [
+      {
+        "description": "Fuel & Food",
+        "amount": -20000
+      },
+      {
+        "description": "Accomodation & Food",
+        "amount": -32000
+      },
+      {
+        "description": "Incoming payment",
+        "amount": 300000
+      }
+    ],
+    "constructionSite": "5e5ea40af5f5943f10ce67de"
+  },
+  {
+    "_id": "5e5fad4c19b30f45d0bf5444",
+    "dateFrom": "2020-02-01",
+    "dateTo": "2020-02-29",
+    "transactions": [
+      {
+        "description": "Food",
+        "amount": -10000
+      },
+      {
+        "description": "Food",
+        "amount": -2000
+      }
+    ],
+    "constructionSite": "5e5ea40af5f5943f10ce67de"
+  }
+]

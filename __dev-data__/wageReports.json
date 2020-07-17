@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe56",
+    "rateOfPay": 3.5,
+    "workHours": 46,
+    "advancePaymentRSD": 3000,
+    "employee": "5e5fee92fb6d94630827c4ab",
+    "payrollReport": "5e5ff613f41d7b6558887d7a"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe57",
+    "rateOfPay": 3,
+    "workHours": 46,
+    "advancePaymentRSD": 2000,
+    "employee": "5e5fee92fb6d94630827c4ac",
+    "payrollReport": "5e5ff613f41d7b6558887d7a"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe58",
+    "rateOfPay": 3,
+    "workHours": 46,
+    "advancePaymentRSD": 3000,
+    "employee": "5e5fee92fb6d94630827c4ad",
+    "payrollReport": "5e5ff613f41d7b6558887d7a"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe59",
+    "rateOfPay": 2.5,
+    "workHours": 46,
+    "advancePaymentRSD": 3000,
+    "employee": "5e5fee92fb6d94630827c4ae",
+    "payrollReport": "5e5ff613f41d7b6558887d7a"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5a",
+    "rateOfPay": 3.5,
+    "workHours": 46,
+    "advancePaymentRSD": 0,
+    "employee": "5e5fee92fb6d94630827c4ab",
+    "payrollReport": "5e5ff613f41d7b6558887d7b"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5b",
+    "rateOfPay": 3,
+    "workHours": 129,
+    "advancePaymentRSD": 33000,
+    "employee": "5e5fee92fb6d94630827c4ac",
+    "payrollReport": "5e5ff613f41d7b6558887d7b"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5c",
+    "rateOfPay": 3,
+    "workHours": 117,
+    "advancePaymentRSD": 33000,
+    "employee": "5e5fee92fb6d94630827c4ad",
+    "payrollReport": "5e5ff613f41d7b6558887d7b"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5d",
+    "rateOfPay": 2.5,
+    "workHours": 111,
+    "advancePaymentRSD": 5000,
+    "employee": "5e5fee92fb6d94630827c4ae",
+    "payrollReport": "5e5ff613f41d7b6558887d7b"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5e",
+    "rateOfPay": 3.5,
+    "workHours": 50,
+    "advancePaymentRSD": 0,
+    "employee": "5e5fee92fb6d94630827c4ab",
+    "payrollReport": "5e5ff613f41d7b6558887d7c"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe5f",
+    "rateOfPay": 3,
+    "workHours": 102,
+    "advancePaymentRSD": 0,
+    "employee": "5e5fee92fb6d94630827c4ac",
+    "payrollReport": "5e5ff613f41d7b6558887d7c"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe60",
+    "rateOfPay": 3,
+    "workHours": 72,
+    "advancePaymentRSD": 0,
+    "employee": "5e5fee92fb6d94630827c4ad",
+    "payrollReport": "5e5ff613f41d7b6558887d7c"
+  },
+  {
+    "_id": "5e5ea9f90c40d753fc7ffe61",
+    "rateOfPay": 2.5,
+    "workHours": 90,
+    "advancePaymentRSD": 29300,
+    "employee": "5e5fee92fb6d94630827c4ae",
+    "payrollReport": "5e5ff613f41d7b6558887d7c"
+  }
+]

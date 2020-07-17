@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "5e5ea40af5f5943f10ce67de",
+    "name": "Construction Site 1",
+    "description": "Construction Site 1",
+    "dateOpened": "2020-01-27",
+    "ratesOfPay": [
+      {
+        "qualification": "HIGHLY_QUALIFIED",
+        "amount": 3.5
+      },
+      {
+        "qualification": "QUALIFIED",
+        "amount": 3
+      },
+      {
+        "qualification": "SEMI_QUALIFIED",
+        "amount": 2.5
+      },
+      {
+        "qualification": "HELPER",
+        "amount": 2
+      }
+    ],
+    "employees": [
+      "5e5fee92fb6d94630827c4ab",
+      "5e5fee92fb6d94630827c4ac",
+      "5e5fee92fb6d94630827c4ad",
+      "5e5fee92fb6d94630827c4ae"
+    ]
+  },
+  {
+    "_id": "5e5ea40af5f5943f10ce67df",
+    "name": "Construction Site 2",
+    "description": "Construction Site 2",
+    "dateOpened": "2020-07-16",
+    "ratesOfPay": [
+      {
+        "qualification": "HIGHLY_QUALIFIED",
+        "amount": 3.5
+      },
+      {
+        "qualification": "QUALIFIED",
+        "amount": 3
+      },
+      {
+        "qualification": "SEMI_QUALIFIED",
+        "amount": 2.5
+      },
+      {
+        "qualification": "HELPER",
+        "amount": 2
+      }
+    ],
+    "employees": ["5e5fee92fb6d94630827c4ab", "5e5fee92fb6d94630827c4ac"]
+  }
+]

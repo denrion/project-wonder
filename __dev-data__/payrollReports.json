@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "5e5ff613f41d7b6558887d7a",
+    "dateFrom": "2020-01-16",
+    "dateTo": "2020-01-31",
+    "exchangeRate": 117,
+    "constructionSite": "5e5ea40af5f5943f10ce67de"
+  },
+  {
+    "_id": "5e5ff613f41d7b6558887d7b",
+    "dateFrom": "2020-02-01",
+    "dateTo": "2020-02-15",
+    "exchangeRate": 117,
+    "constructionSite": "5e5ea40af5f5943f10ce67de"
+  },
+  {
+    "_id": "5e5ff613f41d7b6558887d7c",
+    "dateFrom": "2020-02-16",
+    "dateTo": "2020-02-29",
+    "exchangeRate": 117,
+    "constructionSite": "5e5ea40af5f5943f10ce67de"
+  }
+]
