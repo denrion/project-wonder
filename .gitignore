@@ -4,6 +4,7 @@
 
 ### Node ###
 dist
+__dev-data__/admin_prod.json
 
 # Logs
 logs

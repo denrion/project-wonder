@@ -25,10 +25,10 @@ router
   .route('/')
   .get(
     // PayrollReport.find({constructionSite: req.params.constructionSiteId})
-    setFindFilterFromRequest('constructionSite', FIND_FILTER_TYPE.REQ_PARAMS, 'constructionSiteId'),
+    setFindFilterFromRequest('constructionSite', FIND_FILTER_TYPE.REQ_PARAMS),
     getAllPayrollReports
   )
-  .post(setBodyFieldFromParam('constructionSite', 'constructionSiteId'), createPayrollReport);
+  .post(setBodyFieldFromParam('constructionSite'), createPayrollReport);
 
 router.route('/:id').get(getPayrollReport).patch(updatePayrollReport).delete(deletePayrollReport);
 

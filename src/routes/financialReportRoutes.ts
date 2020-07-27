@@ -25,10 +25,10 @@ router
   .route('/')
   .get(
     // FinancialReport.find({ constructionSite: req.params.constructionSiteId })
-    setFindFilterFromRequest('constructionSite', FIND_FILTER_TYPE.REQ_PARAMS, 'constructionSiteId'),
+    setFindFilterFromRequest('constructionSite', FIND_FILTER_TYPE.REQ_PARAMS),
     getAllFinancialReports
   )
-  .post(setBodyFieldFromParam('constructionSite', 'constructionSiteId'), createFinancialReport);
+  .post(setBodyFieldFromParam('constructionSite'), createFinancialReport);
 
 router
   .route('/:id')

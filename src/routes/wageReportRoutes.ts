@@ -22,10 +22,10 @@ router
   .route('/')
   .get(
     // WageReport.find({payrollReport: req.params.payrollReportId})
-    setFindFilterFromRequest('payrollReport', FIND_FILTER_TYPE.REQ_PARAMS, 'payrollReportId'),
+    setFindFilterFromRequest('payrollReport', FIND_FILTER_TYPE.REQ_PARAMS),
     getAllWageReports
   )
-  .post(setBodyFieldFromParam('payrollReport', 'payrollReportId'), createWageReport);
+  .post(setBodyFieldFromParam('payrollReport'), createWageReport);
 
 router.route('/:id').get(getWageReport).patch(updateWageReport).delete(deleteWageReport);
 
