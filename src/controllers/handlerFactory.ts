@@ -45,7 +45,7 @@ export const getOne = (Model: Model<any>, populateOptions?: QueryPopulateOptions
     res.status(status.OK).json({
       status: ResponseStatus.SUCCESS,
       data: {
-        [setCorrectPluralSuffix(lowercaseFirstLetter(Model.modelName))]: document,
+        [lowercaseFirstLetter(Model.modelName)]: document,
       },
     });
   });
@@ -62,7 +62,7 @@ export const createOne = (Model: Model<any>) =>
     res.status(status.CREATED).json({
       status: ResponseStatus.SUCCESS,
       data: {
-        [setCorrectPluralSuffix(lowercaseFirstLetter(Model.modelName))]: document,
+        [lowercaseFirstLetter(Model.modelName)]: document,
       },
     });
   });
@@ -79,7 +79,7 @@ export const updateOne = (Model: Model<any>) =>
     res.status(status.OK).json({
       status: ResponseStatus.SUCCESS,
       data: {
-        [setCorrectPluralSuffix(lowercaseFirstLetter(Model.modelName))]: document,
+        [lowercaseFirstLetter(Model.modelName)]: document,
       },
     });
   });
